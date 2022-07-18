@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["mantine", "plugin:@next/next/recommended"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  },
+  "parserOptions": {}
 }
